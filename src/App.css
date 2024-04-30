@@ -1,0 +1,85 @@
+.App {
+     min-height: 100vh;
+     background-color: #e3e3e2;
+     font-family: "Montserrat", sans-serif !important;
+}
+
+.dateSpan,
+.monthSpan {
+     font-size: 3rem;
+     font-weight: 800;
+}
+
+.dateSpan {
+     color: #3f4043 !important;
+}
+
+.monthSpan {
+     color: #b7b8bf;
+}
+
+/* styles.css */
+.input-container {
+     position: relative;
+     width: 100%;
+}
+
+.submit-button {
+     position: absolute;
+     right: 0;
+     top: 50%;
+     transform: translateY(-50%);
+     background-color: #e9e9e9;
+     color: #a6a7a7;
+     font-size: 1.5rem;
+     border-radius: .3rem;
+     /* padding: .1rem .4rem; */
+     height: 1.65rem;
+     border: none;
+}
+
+.input-field {
+     width: 50vw !important;
+     border: none;
+     outline: none;
+     border-radius: .3rem;
+     padding: .6rem;
+}
+
+.displayDiv {
+     max-height: 30rem;
+     min-height: 30rem;
+     margin: 4rem 5rem;
+     border-radius: 1rem;
+     background-color: #f0f1f1;
+}
+
+.avatarSpan {
+     background-color: #3f4043;
+     padding: .6rem 1rem;
+     color: #efefef;
+     font-weight: 400;
+     font-size: 1.5rem;
+     border-radius: 5rem;
+     height: .5rem;
+}
+
+.tasksDiv {
+     width: 40rem;
+     color: #4e5052;
+     font-weight: 500;
+     max-height: 24rem;
+     overflow-y: scroll;
+}
+
+.lineHr {
+     color: #b7b8bf;
+}
+
+.deleteBtn {
+     border: none;
+     outline: none;
+     font-size: 1.1rem;
+     font-weight: 700;
+     color: #a6a7a7;
+}
